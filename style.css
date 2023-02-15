@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  background-color: #6CABDD;
+  background-color: #6cabdd;
 }
 
 section {
@@ -23,8 +23,8 @@ section {
 }
 
 #about > .flex-container > .about-explain {
-font-size: 8px;
-color: white;
+  font-size: 8px;
+  color: white;
 }
 
 #about > .flex-container .about-explain {
@@ -35,31 +35,31 @@ color: white;
   justify-content: space-evenly;
 }
 
-#list-product > .flex-container{
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-margin-top: 12px;
+#list-product > .flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 12px;
 }
 
 #list-product > .flex-container figure {
-background-color: rgb(0, 0, 0);
-margin: 36px;
-padding: 24px;
-display: grid;
-justify-content: center;
+  background-color: rgb(0, 0, 0);
+  margin: 36px;
+  padding: 24px;
+  display: grid;
+  justify-content: center;
 }
 
 #list-product > .flex-container figure img {
-height: 50vh;
-width: 60vw;
-object-fit: cover;
+  height: 50vh;
+  width: 60vw;
+  object-fit: cover;
 }
 
 #list-product > .flex-container figcaption {
-text-align: center;
-margin-top: 12px;
-color: white;
+  text-align: center;
+  margin-top: 12px;
+  color: white;
 }
 
 /* for tablet and desktop */
@@ -82,10 +82,10 @@ color: white;
     object-fit: cover;
   }
 
-#about > .flex-container > .about-explain {
-  font-size: 12px;
-  color: white;
-}
+  #about > .flex-container > .about-explain {
+    font-size: 12px;
+    color: white;
+  }
 
   #about > .flex-container .about-explain {
     height: 75vh;
@@ -95,29 +95,86 @@ color: white;
     justify-content: space-evenly;
   }
 
-#list-product > .flex-container{
+  #list-product > .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 36px;
+  }
+
+  #list-product > .flex-container figure {
+    background-color: rgb(0, 0, 0);
+    margin: 12px;
+    padding: 20px;
+  }
+
+  #list-product > .flex-container figure img {
+    height: 60vh;
+    max-width: 25vw;
+    object-fit: cover;
+  }
+
+  #list-product > .flex-container figcaption {
+    text-align: center;
+    margin-top: 12px;
+    color: white;
+  }
+}
+
+/* Bagian Arya */
+
+nav {
   display: flex;
+  background-color: grey;
+  justify-content: space-between;
   flex-direction: row;
-  justify-content: space-around;
-  margin-top: 36px;
+  overflow-x: hidden;
 }
 
-#list-product > .flex-container figure {
- background-color: rgb(0, 0, 0);
- margin: 12px;
- padding: 20px;
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  margin: 20px;
+  gap: 40px;
 }
 
-#list-product > .flex-container figure img {
-  height: 60vh;
-  max-width: 25vw;
-  object-fit: cover;
+.logo {
+  margin: auto;
+  margin-left: 20px;
 }
 
-#list-product > .flex-container figcaption {
-  text-align: center;
-  margin-top: 12px;
+/* HOME */
+.bg {
+  width: 100%;
+}
+
+.home {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagline {
   color: white;
 }
 
+@media (max-width: 425px) {
+  nav {
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-top: 20px;
+  }
 }
