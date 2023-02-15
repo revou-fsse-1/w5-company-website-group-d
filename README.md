@@ -16,7 +16,7 @@ Wireframe on Miro: [W5-GroupProject-groupd-wireframe](https://miro.com/app/board
 
 MockUp on Figma: [W5-GroupProject-groupd-MockUp](https://www.figma.com/file/MzVVRCsUrWzau8hmM8px8W/W5-GroupProject-groupd-MockUp)
 
-Prototyping on Figma: [W2-Project-Wireframe-Anggih](https://miro.com/app/board/uXjVPuW8ogI=/#tpicker-content)
+Prototyping on Figma: [W2-Project-Wireframe-Anggih](https://www.figma.com/proto/MzVVRCsUrWzau8hmM8px8W/W5-GroupProject-groupd-MockUp)
 
 ## Pages:
 
