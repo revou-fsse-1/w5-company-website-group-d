@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  background-color: #6CABDD;
+  background-color: #ffffff;
 }
 
 section {
@@ -12,7 +12,7 @@ section {
 #about > .flex-container {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(237, 198, 25);
   padding: 12px;
 }
 
@@ -24,7 +24,7 @@ section {
 
 #about > .flex-container > .about-explain {
 font-size: 8px;
-color: white;
+color: rgb(0, 0, 0);
 }
 
 #about > .flex-container .about-explain {
@@ -43,7 +43,7 @@ margin-top: 12px;
 }
 
 #list-product > .flex-container figure {
-background-color: rgb(0, 0, 0);
+background-color: rgb(237, 198, 25);
 margin: 36px;
 padding: 24px;
 display: grid;
@@ -59,9 +59,31 @@ object-fit: cover;
 #list-product > .flex-container figcaption {
 text-align: center;
 margin-top: 12px;
-color: white;
+color: rgb(0, 0, 0);
+}
+footer > .flex-container h2 {
+  text-align: center;
+  align-content: center;
+color: white;}
+
+footer {background-color: black;}
+
+footer > .flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 36px;
 }
 
+footer > .flex-container > img{
+max-width: 20vw;
+object-fit: cover;
+}
+
+footer > .flex-container > article{
+ font-size: 6px;
+ color: white;}
+ 
 /* for tablet and desktop */
 @media only screen and (min-width: 768px) {
   section {
@@ -70,7 +92,7 @@ color: white;
   #about > .flex-container {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(237, 198, 25);
     padding: 12px;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -84,7 +106,7 @@ color: white;
 
 #about > .flex-container > .about-explain {
   font-size: 12px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
   #about > .flex-container .about-explain {
@@ -103,7 +125,7 @@ color: white;
 }
 
 #list-product > .flex-container figure {
- background-color: rgb(0, 0, 0);
+ background-color: rgb(237, 198, 25);
  margin: 12px;
  padding: 20px;
 }
@@ -117,7 +139,29 @@ color: white;
 #list-product > .flex-container figcaption {
   text-align: center;
   margin-top: 12px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
+footer > .flex-container h2 {
+  text-align: center;
+  align-content: center;
+color: white;}
+
+footer {background-color: black;}
+
+footer > .flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 36px;
 }
+
+footer > .flex-container > img{
+max-height: 36vh;
+object-fit: cover;
+}
+
+footer > .flex-container > article{
+ font-size: 10px;
+ color: white;}
+ }
