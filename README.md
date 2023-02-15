@@ -14,9 +14,9 @@ Website on Netlify Deployment: [w5-groupd-lamborghini-anggihp.netlify.app](https
 
 Wireframe on Miro: [W5-GroupProject-groupd-wireframe](https://miro.com/app/board/uXjVPpQ9OSU=/)
 
-MockUp on Figma: [W5-GroupProject-groupd-MockUp](https://www.figma.com/file/MzVVRCsUrWzau8hmM8px8W/W5-GroupProject-groupd-MockUp)
+MockUp on Figma: [W5-GroupProject-groupd-MockUp&Prototyping](https://www.figma.com/file/MzVVRCsUrWzau8hmM8px8W/W5-GroupProject-groupd-MockUp%26Prototyping)
 
-Prototyping on Figma: [W2-Project-Wireframe-Anggih](https://www.figma.com/proto/MzVVRCsUrWzau8hmM8px8W/W5-GroupProject-groupd-MockUp)
+Prototyping on Figma: [W5-GroupProject-groupd-MockUp&Prototyping](https://www.figma.com/proto/MzVVRCsUrWzau8hmM8px8W/W5-GroupProject-groupd-MockUp%26Prototyping)
 
 ## Pages:
 
