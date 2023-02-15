@@ -12,78 +12,84 @@ section {
 #about > .flex-container {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(237, 198, 25);
+  background-color: white;
   padding: 12px;
 }
 
 #about > .flex-container img {
-  height: 50vh;
-  max-width: 40%;
+  height: 80vh;
+  max-width: 50%;
   object-fit: cover;
 }
 
 #about > .flex-container > .about-explain {
-font-size: 8px;
-color: rgb(0, 0, 0);
+  font-size: 7px;
+  color: rgb(0, 0, 0);
 }
 
 #about > .flex-container .about-explain {
-  height: 50vh;
+  height: 80vh;
   display: flex;
   width: 40%;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-#list-product > .flex-container{
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-margin-top: 12px;
+#list-product > .flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 #list-product > .flex-container figure {
-background-color: rgb(237, 198, 25);
-margin: 36px;
-padding: 24px;
-display: grid;
-justify-content: center;
+  margin: 36px;
+  padding: 24px;
+  display: grid;
+  justify-content: center;
+}
+#list-product > .flex-container figure:hover {
+  background-color: rgb(237, 198, 25);
+ color: white;
 }
 
 #list-product > .flex-container figure img {
-height: 50vh;
-width: 60vw;
-object-fit: cover;
+  height: 70vh;
+  width: 60vw;
+  object-fit: cover;
 }
 
 #list-product > .flex-container figcaption {
-text-align: center;
-margin-top: 12px;
-color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 12px;
+  color: rgb(0, 0, 0);
 }
 footer > .flex-container h2 {
   text-align: center;
   align-content: center;
-color: white;}
+  color: white;
+}
 
-footer {background-color: black;}
+footer {
+  background-color: black;
+}
 
-footer > .flex-container{
+footer > .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 36px;
 }
 
-footer > .flex-container > img{
-max-width: 20vw;
-object-fit: cover;
+footer > .flex-container > img {
+  max-width: 20vw;
+  object-fit: cover;
 }
 
-footer > .flex-container > article{
- font-size: 6px;
- color: white;}
- 
+footer > .flex-container > article {
+  font-size: 6px;
+  color: white;
+}
+
 /* for tablet and desktop */
 @media only screen and (min-width: 768px) {
   section {
@@ -92,7 +98,7 @@ footer > .flex-container > article{
   #about > .flex-container {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(237, 198, 25);
+    background-color: white;
     padding: 12px;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -104,10 +110,10 @@ footer > .flex-container > article{
     object-fit: cover;
   }
 
-#about > .flex-container > .about-explain {
-  font-size: 12px;
-  color: rgb(0, 0, 0);
-}
+  #about > .flex-container > .about-explain {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+  }
 
   #about > .flex-container .about-explain {
     height: 75vh;
@@ -117,51 +123,58 @@ footer > .flex-container > article{
     justify-content: space-evenly;
   }
 
-#list-product > .flex-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 36px;
+  #list-product > .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 36px;
+  }
+
+  #list-product > .flex-container figure {
+    margin: 12px;
+    padding: 20px;
+  }
+  #list-product > .flex-container figure:hover {
+    background-color: rgb(237, 198, 25);
+   color: white;
+  }
+
+  #list-product > .flex-container figure img {
+    height: 70vh;
+    max-width: 25vw;
+    object-fit: cover;
+  }
+
+  #list-product > .flex-container figcaption {
+    text-align: center;
+    margin-top: 12px;
+    color: rgb(0, 0, 0);
+  }
+
+  footer > .flex-container h2 {
+    text-align: center;
+    align-content: center;
+    color: white;
+  }
+
+  footer {
+    background-color: black;
+  }
+
+  footer > .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 36px;
+  }
+
+  footer > .flex-container > img {
+    max-height: 36vh;
+    object-fit: cover;
+  }
+
+  footer > .flex-container > article {
+    font-size: 10px;
+    color: white;
+  }
 }
-
-#list-product > .flex-container figure {
- background-color: rgb(237, 198, 25);
- margin: 12px;
- padding: 20px;
-}
-
-#list-product > .flex-container figure img {
-  height: 60vh;
-  max-width: 25vw;
-  object-fit: cover;
-}
-
-#list-product > .flex-container figcaption {
-  text-align: center;
-  margin-top: 12px;
-  color: rgb(0, 0, 0);
-}
-
-footer > .flex-container h2 {
-  text-align: center;
-  align-content: center;
-color: white;}
-
-footer {background-color: black;}
-
-footer > .flex-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 36px;
-}
-
-footer > .flex-container > img{
-max-height: 36vh;
-object-fit: cover;
-}
-
-footer > .flex-container > article{
- font-size: 10px;
- color: white;}
- }
