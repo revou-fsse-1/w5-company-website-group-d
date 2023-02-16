@@ -138,10 +138,36 @@
           <a name="contact" href="/">
             <h2>Lamborghini 2023</h2>
           </a>
-          <img
-            src="https://www.carlogos.org/car-logos/lamborghini-logo-1100x1200.png"
-            alt="lamborghini logo"
-          />
+          <form action="#">
+            <fieldset>
+              <legend>Personal Data:</legend>
+              <div>
+                <label for="fullName">Full Name:</label>
+                <input id="fullName" type="text" required />
+              </div>
+
+              <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email" required />
+              </div>
+              <div>
+                <label for="region-choice">City Region:</label>
+                <input
+                  list="region-name"
+                  id="region-choice"
+                  name="region-choice"
+                />
+                <datalist id="region-name">
+                  <option value="Jakarta"></option>
+                  <option value="Bandung"></option>
+                  <option value="Yogyakarta"></option>
+                  <option value="Surabaya"></option>
+                  <option value="Banjarmasin"></option>
+                </datalist>
+              </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+          </form>
         </div>
       </footer>
     </main>
