@@ -26,8 +26,14 @@ FSSE Madrid 2023
 - About
 - Contact
 
+## Color:
+
+- White
+- Black
+- Gold
+
 ## My Website Project Preview
 
 1. Home Page
 
-![Desktop](assets/home.JPG)
+![Desktop](images/site.jpg)
