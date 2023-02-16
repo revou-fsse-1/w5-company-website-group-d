@@ -4,30 +4,33 @@ body {
   margin: 0;
   background-color: #ffffff;
 }
-
+a {
+  color: gold;
+}
 section {
   margin: 0px 0px;
 }
 
-#about > .flex-container {
+.about > .flex-container {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   text-align: center;
+  padding: 12px;
 }
 
-#about > .flex-container img {
+.about > .flex-container img {
   max-height: 50vh;
   width: 90%;
   object-fit: cover;
 }
 
-#about > .flex-container > .about-explain {
+.about > .flex-container > .about-explain {
   font-size: 0.8rem;
   color: rgb(0, 0, 0);
 }
 
-#about > .flex-container .about-explain {
+.about > .flex-container .about-explain {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -93,8 +96,8 @@ footer > .flex-container > article {
 }
 
 footer > .flex-container > h2 {
-  font-size: 10px;
-  color: grey;
+  font-size: 0.8rem;
+  color: white;
   align-self: flex-end;
 }
 
@@ -202,32 +205,31 @@ ul > li > a {
     margin-right: 35%;
     font-size: 4vh;
   }
-
-  /* --- Changes for about section--- */
-
-  #about > .flex-container {
-    flex-direction: column;
-    justify-content: center;
+  
+  .about > .flex-container {
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
+    text-align: center;
+    padding: 5px;
   }
-
-  #about > .flex-container img {
-    height: auto;
-    max-width: 90%;
+  
+  .about > .flex-container img {
+    max-height: 50vh;
+    width: 90%;
+    object-fit: cover;
   }
-
-  #about > .flex-container > .about-explain {
-    font-size: 10px;
+  
+  .about > .flex-container > .about-explain {
+    font-size: 0.8rem;
     color: rgb(0, 0, 0);
-    text-align: justify;
   }
-
-  #about > .flex-container .about-explain {
-    height: auto;
+  
+  .about > .flex-container .about-explain {
     display: flex;
     width: 100%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   h2 {
@@ -237,30 +239,35 @@ ul > li > a {
 }
 
 /*for tablet and desktop */
-@media only screen and (min-width: 799px) {
+@media only screen and (min-width: 660px) {
   section {
     margin: 12px 0px;
   }
-  #about > .flex-container {
+  .about > .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: left;
+    padding: 12px;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
-  #about > .flex-container img {
-    height: 150vh;
-    width: 45%;
+  .about > .flex-container img {
+    height: 75vh;
+    width: 40%;
+    object-fit: cover;
+    max-height: fit-content;
   }
 
-  #about > .flex-container > .about-explain {
+  .about > .flex-container > .about-explain {
     font-size: 1rem;
     color: rgb(0, 0, 0);
   }
 
-  #about > .flex-container .about-explain {
+  .about > .flex-container .about-explain {
     display: flex;
-    width: 45%;
+    width: 40%;
     flex-direction: column;
     justify-content: center;
   }
@@ -319,4 +326,11 @@ ul > li > a {
     font-size: 0.8rem;
     color: white;
   }
+  
+  footer > .flex-container > h2 {
+    font-size: 1rem;
+    color: white;
+    align-self: flex-end;
+  }
+ 
 }
