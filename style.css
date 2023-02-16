@@ -49,7 +49,7 @@ section {
 }
 #list-product > .flex-container figure:hover {
   background-color: rgb(237, 198, 25);
- color: white;
+  color: white;
 }
 
 #list-product > .flex-container figure img {
@@ -88,6 +88,105 @@ footer > .flex-container > img {
 footer > .flex-container > article {
   font-size: 6px;
   color: white;
+}
+
+/* HEADER */
+
+nav {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 70px;
+  gap: 40px;
+  padding: 0;
+}
+
+.logo {
+  margin: auto;
+  margin-left: 70px;
+  width: 210px;
+}
+
+/* HOME */
+.bg {
+  width: 100%;
+}
+
+.model {
+  display: flex;
+  margin: auto;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.model > img {
+  width: 15%;
+  height: 15%;
+}
+
+.home {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagline {
+  display: block;
+  position: absolute;
+  color: white;
+  margin-right: 50%;
+  font-size: 3em;
+}
+
+@media (max-width: 425px) {
+  nav {
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* visibility: hidden; */
+  }
+
+  .logo {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .model {
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .model > img {
+    width: 30%;
+    height: 30%;
+    margin-top: 20px;
+  }
+
+  .tagline {
+    margin-right: 35%;
+    font-size: 1.2rem;
+  }
 }
 
 /* for tablet and desktop */
@@ -136,7 +235,7 @@ footer > .flex-container > article {
   }
   #list-product > .flex-container figure:hover {
     background-color: rgb(237, 198, 25);
-   color: white;
+    color: white;
   }
 
   #list-product > .flex-container figure img {
