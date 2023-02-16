@@ -11,28 +11,27 @@ section {
 
 #about > .flex-container {
   display: flex;
-  justify-content: space-between;
-  background-color: white;
-  padding: 12px;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
 }
 
 #about > .flex-container img {
-  height: 80vh;
-  max-width: 50%;
+  max-height: 50vh;
+  width: 90%;
   object-fit: cover;
 }
 
 #about > .flex-container > .about-explain {
-  font-size: 7px;
+  font-size: 0.8rem;
   color: rgb(0, 0, 0);
 }
 
 #about > .flex-container .about-explain {
-  height: 80vh;
   display: flex;
-  width: 40%;
+  width: 100%;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 #list-product > .flex-container {
@@ -109,7 +108,7 @@ nav {
   overflow-x: hidden;
 }
 
-ul {
+ul .desktop{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,6 +172,7 @@ ul > li > a {
   }
 
   ul {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -236,37 +236,33 @@ ul > li > a {
   }
 }
 
-/* for tablet and desktop */
-@media only screen and (min-width: 768px) {
+/*for tablet and desktop */
+@media only screen and (min-width: 799px) {
   section {
     margin: 12px 0px;
   }
   #about > .flex-container {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    background-color: white;
-    padding: 12px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    text-align:left
   }
 
   #about > .flex-container img {
-    height: 75vh;
-    max-width: 40%;
-    object-fit: cover;
+    height: 150vh;
+    width: 45%;
   }
 
   #about > .flex-container > .about-explain {
-    font-size: 12px;
+    font-size: 1rem;
     color: rgb(0, 0, 0);
   }
 
   #about > .flex-container .about-explain {
-    height: 75vh;
     display: flex;
-    width: 40%;
+    width: 45%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   #list-product > .flex-container {
@@ -315,12 +311,12 @@ ul > li > a {
   }
 
   footer > .flex-container > img {
-    max-height: 36vh;
+    max-height: 26vh;
     object-fit: cover;
   }
 
   footer > .flex-container > article {
-    font-size: 10px;
+    font-size: 0.8rem;
     color: white;
   }
 }
