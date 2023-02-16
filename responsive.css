@@ -2,22 +2,19 @@
   display: none;
 }
 
-.desktop {
-  display: block;
-}
-
 @media only screen and (max-width: 799px) {
-nav {
-  display: flex;
-justify-content: space-between;
-flex-direction: row-reverse;
-}
+  nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
   .mobile {
     display: flex;
     position: relative;
+    margin-right: 5vh;
   }
 
-  .desktop {
+  ul {
     display: none;
   }
 }

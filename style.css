@@ -108,7 +108,7 @@ nav {
   overflow-x: hidden;
 }
 
-ul .desktop{
+ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,7 +166,7 @@ ul > li > a {
   font-size: 3em;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 660px) {
   nav {
     flex-direction: column;
   }
@@ -200,7 +200,7 @@ ul > li > a {
 
   .tagline {
     margin-right: 35%;
-    font-size: 1.2rem;
+    font-size: 4vh;
   }
 
   /* --- Changes for about section--- */
@@ -245,7 +245,7 @@ ul > li > a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    text-align:left
+    text-align: left;
   }
 
   #about > .flex-container img {
