@@ -103,14 +103,17 @@ footer > .flex-container > a {
 }
 
 /* HEADER */
-
+header{margin-bottom: auto;}
 nav {
   display: flex;
-  background-color: white;
+  background: gold;
+  opacity: 80%;
   justify-content: space-between;
   flex-direction: row;
   overflow-x: hidden;
-}
+  position: fixed;
+  width: 100%;
+  }
 
 ul {
   display: flex;
@@ -126,12 +129,11 @@ ul {
 
 ul > li > a {
   text-decoration: none;
-  color: grey;
+  color: black;
 }
 
 .logo {
-  margin: auto;
-  margin-left: 70px;
+  margin-left: 24px;
   width: 210px;
 }
 
@@ -154,7 +156,7 @@ ul > li > a {
   height: 15%;
 }
 
-.home {
+.hero {
   display: flex;
   background-color: black;
   flex-direction: column;
@@ -171,24 +173,9 @@ ul > li > a {
 }
 
 @media (max-width: 660px) {
-  nav {
-    flex-direction: column;
-  }
-
-  ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    /* visibility: hidden; */
-  }
-
   .logo {
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
   }
 
   .model {
@@ -242,7 +229,7 @@ ul > li > a {
 /*for tablet and desktop */
 @media only screen and (min-width: 660px) {
   section {
-    margin: 12px 0px;
+    margin: 0px 0px;
   }
   .about > .flex-container {
     display: flex;
