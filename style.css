@@ -76,7 +76,10 @@ footer > .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-top: 36px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 footer > .flex-container > img {
@@ -87,6 +90,12 @@ footer > .flex-container > img {
 footer > .flex-container > article {
   font-size: 6px;
   color: white;
+}
+
+footer > .flex-container > h2 {
+  font-size: 10px;
+  color: grey;
+  align-self: flex-end;
 }
 
 /* HEADER */
@@ -108,6 +117,12 @@ ul .desktop{
   margin-right: 70px;
   gap: 40px;
   padding: 0;
+  text-decoration: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: grey;
 }
 
 .logo {
@@ -146,7 +161,7 @@ ul .desktop{
 .tagline {
   display: block;
   position: absolute;
-  color: white;
+  color: whitesmoke;
   margin-right: 50%;
   font-size: 3em;
 }
@@ -186,6 +201,38 @@ ul .desktop{
   .tagline {
     margin-right: 35%;
     font-size: 1.2rem;
+  }
+
+  /* --- Changes for about section--- */
+
+  #about > .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about > .flex-container img {
+    height: auto;
+    max-width: 90%;
+  }
+
+  #about > .flex-container > .about-explain {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+  }
+
+  #about > .flex-container .about-explain {
+    height: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 20px;
   }
 }
 
