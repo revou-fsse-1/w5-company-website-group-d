@@ -34,6 +34,29 @@ section {
   flex-direction: column;
   justify-content: center;
 }
+.styled {
+  display: grid;
+  align-self: center;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  inline-size: fit-content;
+  background-color: gold;
+
+}
+
+.styled:hover {
+    background-color: gold;
+}
+
+.styled:active {
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
 
 #list-product > .flex-container {
   display: flex;
@@ -322,5 +345,26 @@ ul > li > a {
     font-size: 1.2rem;
     align-self: flex-end;
   }
- 
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    inline-size: fit-content;
+    background-color: gold;
+
+}
+
+.styled:hover {
+    background-color: gold;
+}
+
+.styled:active {
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
 }
