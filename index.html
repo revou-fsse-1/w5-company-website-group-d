@@ -17,30 +17,31 @@
   </head>
   <body>
     <main>
-      <section class="intro">
+      <header>
         <nav>
-          <span class="mobile">
-            <img
-              src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg"
-              alt="Hamburger Icon"
-            />
-          </span>
-          <img class="logo" src="images/logo.png" alt="logo" />
-          <ul class="desktop">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Cars</a></li>
-          </ul>
+        <span class="mobile">
+          <img
+            src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg"
+            alt="Hamburger Icon"
+          />
+        </span>
+        <img class="logo" src="images/logo.png" alt="logo" />
+        <ul class="desktop">
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
         </nav>
-        <div class="home">
-          <div class="tagline">
-            <h1>
-              Find your <br />dream <br />
-              cars.
-            </h1>
-          </div>
-          <img class="bg" src="images/lambo.jpg" alt="" />
+      </header>
+
+      <section class="hero">
+        <div class="tagline">
+          <h1>
+            Find your <br />dream <br />
+            cars.
+          </h1>
         </div>
+        <img class="bg" src="images/lambo.jpg" alt="" />
         <div class="model">
           <img src="images/aven.png" alt="" />
           <img src="images/countach.png" alt="" />
@@ -49,36 +50,39 @@
         </div>
       </section>
 
-      <section class="about">
-        <div class="flex-container">
-          <div class="about-explain">
-            <h2>COMPANY PROFILE</h2>
-            <p>
-              Automobili Lamborghini S.p.A. Founded in 1963, Automobili
-              Lamborghini is headquartered in Sant’Agata Bolognese, in Northern
-              Italy. Lamborghini currently produces two super sports car models,
-              the V12-powered Aventador, launched in 2011, and the V10-powered
-              Huracán, launched in 2014, along with the Urus Super SUV powered
-              by a twin-turbo V8 engine, launched in 2017.
-            </p>
-            <p>
-              For over half a century Automobili Lamborghini created a
-              continuous series of dream cars, including the 350 GT, Miura,
-              Espada, Countach, Diablo, and Murciélago, as well as limited
-              editions such as the Reventón, Sesto Elemento, Veneno and the
-              Centenario. With the unveiling in 2019 of the Lamborghini Sián FKP
-              37, a few-off build of only 63 units, the company delivers unique
-              new hybrid technologies, featuring the world-first application of
-              a supercapacitor for hybridization, new materials technology, and
-              unsurpassed Lamborghini performance.
-            </p>
+      <a name="about">
+        <section class="about">
+          <div class="flex-container">
+            <div class="about-explain">
+              <h2>COMPANY PROFILE</h2>
+              <p>
+                Automobili Lamborghini S.p.A. Founded in 1963, Automobili
+                Lamborghini is headquartered in Sant’Agata Bolognese, in
+                Northern Italy. Lamborghini currently produces two super sports
+                car models, the V12-powered Aventador, launched in 2011, and the
+                V10-powered Huracán, launched in 2014, along with the Urus Super
+                SUV powered by a twin-turbo V8 engine, launched in 2017.
+              </p>
+              <p>
+                For over half a century Automobili Lamborghini created a
+                continuous series of dream cars, including the 350 GT, Miura,
+                Espada, Countach, Diablo, and Murciélago, as well as limited
+                editions such as the Reventón, Sesto Elemento, Veneno and the
+                Centenario. With the unveiling in 2019 of the Lamborghini Sián
+                FKP 37, a few-off build of only 63 units, the company delivers
+                unique new hybrid technologies, featuring the world-first
+                application of a supercapacitor for hybridization, new materials
+                technology, and unsurpassed Lamborghini performance.
+              </p>
+            </div>
+            <img
+              src="https://i.pinimg.com/originals/3a/7a/65/3a7a65a8b4ea8b9fbd15b8a5196156bc.jpg"
+              alt="lamborghini HQ"
+            />
           </div>
-          <img
-            src="https://i.pinimg.com/originals/3a/7a/65/3a7a65a8b4ea8b9fbd15b8a5196156bc.jpg"
-            alt="lamborghini HQ"
-          />
-        </div>
-      </section>
+        </section>
+      </a>
+
       <section id="list-product">
         <div class="flex-container">
           <figure>
@@ -104,6 +108,7 @@
           </figure>
         </div>
       </section>
+
       <footer>
         <div class="flex-container">
           <article>
@@ -122,13 +127,15 @@
               >
             </p>
           </article>
-          <h2>Lamborghini 2023</h2>
+          <a name="contact" href="/">
+            <h2>Lamborghini 2023</h2>
+          </a>
           <img
             src="https://www.carlogos.org/car-logos/lamborghini-logo-1100x1200.png"
             alt="lamborghini logo"
           />
         </div>
       </footer>
-    </main>
+   </main>
   </body>
 </html>
