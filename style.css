@@ -107,7 +107,7 @@ footer > .flex-container {
 
 footer > .flex-container > form {
   object-fit: cover;
-  color: white;
+  color: gold;
   width: 24vw;
   display: flex;
   flex-direction: column;
@@ -336,7 +336,7 @@ ul > li > a {
 
   footer > .flex-container > form {
     object-fit: cover;
-    color: white;
+    color: gold;
     width: 24vw;
     display: flex;
     flex-direction: column;

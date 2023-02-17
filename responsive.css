@@ -22,3 +22,13 @@
     display: none;
   }
 }
+@media only screen and (min-width: 1000px) {
+  footer > .flex-container > form {
+    color: gold;
+    width: 36vw;
+    display: flex;
+    flex-direction: row;
+    align-items: unset;
+    text-align: end;
+  }
+}
